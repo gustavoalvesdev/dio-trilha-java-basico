@@ -4,11 +4,11 @@ public class Operadores {
         // Para aparecer corretamente na tela
         System.out.println("");
 
-        int a, b;
-        
-        a = 5;
-        b = 6;
+        int numero1 = 1;
+        int numero2 = 2;
 
-        System.out.println(a == b ? "verdadeiro" : "falso");
+        boolean simNao = numero1 != numero2;
+
+        System.out.println("Os números são diferentes: " + (simNao ? "Sim" : "Não"));
     }
 }
