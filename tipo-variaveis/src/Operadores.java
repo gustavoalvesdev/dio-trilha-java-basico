@@ -4,11 +4,25 @@ public class Operadores {
         // Para aparecer corretamente na tela
         System.out.println("");
 
-        int numero1 = 1;
-        int numero2 = 2;
+        boolean fatoUm = false;
+        boolean fatoDois = true;
 
-        boolean simNao = numero1 != numero2;
+        if (fatoUm && fatoDois) {
+            System.out.println("E Verdadeiro");
+        } else {
+            System.out.println("E Falso");
+        }
 
-        System.out.println("Os números são diferentes: " + (simNao ? "Sim" : "Não"));
+        if (fatoUm || fatoDois) {
+            System.out.println("Ou Verdadeiro");
+        } else {
+            System.out.println("Ou Falso");
+        }
+
+        if (!fatoUm) {
+            System.out.println("Não Verdadeiro");
+        } else {
+            System.out.println("Não Falso");
+        }
     }
 }
