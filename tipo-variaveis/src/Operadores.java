@@ -1,15 +1,15 @@
 public class Operadores {
     public static void main(String[] args) {
-        
-        int numero = 5;
-        
-        numero = - numero;
 
-        System.out.println(numero);
+        // Para aparecer corretamente na tela
+        System.out.println("");
 
-        numero = numero * -1;
+        boolean variavel = true;
 
-        System.out.println(numero);
+        System.out.println(!variavel);
 
+        variavel = !variavel;
+
+        System.out.println(variavel);
     }
 }
