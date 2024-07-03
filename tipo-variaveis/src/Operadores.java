@@ -4,12 +4,11 @@ public class Operadores {
         // Para aparecer corretamente na tela
         System.out.println("");
 
-        boolean variavel = true;
+        int a, b;
+        
+        a = 5;
+        b = 6;
 
-        System.out.println(!variavel);
-
-        variavel = !variavel;
-
-        System.out.println(variavel);
+        System.out.println(a == b ? "verdadeiro" : "falso");
     }
 }
